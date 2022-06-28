@@ -9,6 +9,48 @@ section{
     padding: 100px;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    color: white;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+header .header-logo{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    position: relative;
+    color: white;
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0px 15px;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
 .heading{
     position: relative;
     min-height: 100vh;
@@ -18,7 +60,6 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .heading h2{
