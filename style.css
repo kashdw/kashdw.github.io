@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+    
+}
+
+section{
+    padding: 100px;
+}
+
+.heading{
+    position: relative;
+    min-height: 100vh;
+    background: url(coding.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.heading h2{
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.heading h3{
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+
+.button{
+    position:relative;
+    background-color: aqua;
+    display: inline-block;
+    color:black;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.button:hover{
+    background-color: orange;
+    color:white;
+}
