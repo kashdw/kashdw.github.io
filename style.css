@@ -1,9 +1,11 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: monospace;
+    font-family:'Courier New', Courier, monospace
     
 }
+
+/* rgb(161, 201, 219) */
 
 section{
     padding: 100px;
@@ -136,4 +138,59 @@ header.sticky ul li a{
 img{
     max-width: 100;
 
+}
+/* skills section */
+.skills-p{
+    padding-top: 10px;
+}
+
+.skills{
+    background: rgb(161, 201, 219);
+    color: black;
+}
+
+.skills .skills-box{
+    display: inline-block;
+    padding: 30px;
+}
+
+.skills .skills-box h2{
+    align-content: center;
+}
+
+.skills .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.skills .content .skills-box{
+    padding: 30px;
+    background-color: azure;
+    color: black;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.skills .content .skills-box:hover{
+    background-color: rgb(173, 116, 46);
+}
+
+.skills .content .skills-box img:hover{
+    filter: invert(1);
+}
+
+/* projects section */
+.projects .content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projects .content .project-box{
+    width: 500px;
+    padding: 10px;
 }
