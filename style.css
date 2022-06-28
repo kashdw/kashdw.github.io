@@ -8,8 +8,9 @@
 section{
     padding: 100px;
 }
-
+/* navbar */
 header {
+    transition: 0.5s; /* speed of navbar color change when scrolling */
     position: fixed;
     top: 0;
     color: white;
@@ -23,12 +24,24 @@ header {
     text-decoration: none;
 }
 
+/* to change navbar when scrolling */
+header.sticky{
+    background: white;
+    color: black;
+    padding: 20px 100px;
+    /*box-shadow: 0 5px 20px cornflowerblue;*/
+}
+
 header .header-logo{
     color: white;
     font-size: 25px;
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+header.sticky .header-logo{
+    color: black;
 }
 
 header ul{
@@ -50,7 +63,11 @@ header ul li a{
     color: white;
     list-style: none;
 }
+header.sticky ul li a{
+    color: black;
+}
 
+/* about me section */
 .heading{
     position: relative;
     min-height: 100vh;
@@ -88,4 +105,35 @@ header ul li a{
 .button:hover{
     background-color: orange;
     color:white;
+}
+
+.about-me-heading{
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.about-me .content{
+    display: flex;
+    justify-content: space-between; /* puts image next to text (instead of under) */
+
+}
+
+.content-item-w50{
+    padding-right: 30px;
+}
+.content-item-w50 h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.w50{
+    min-width: 50%;
+}
+
+img{
+    max-width: 100;
+
 }
