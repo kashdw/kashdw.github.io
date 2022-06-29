@@ -1,12 +1,52 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family:'Courier New', Courier, monospace
-    
+    font-family: 'Merriweather', serif;
+    letter-spacing: 2px;
+    scroll-behavior: smooth;
 }
 /* 22:20*/
 /* rgb(161, 201, 219) */
 
+/*
+ for responsive design 
+@media(max-width: 1383px){
+    header,
+    header.sticky{
+        padding: 20px 50px;
+        z-index: 1000;
+    }
+
+    .hamburger-menu{
+        position:fixed;
+        top:0;
+        left:0;
+        display: block;
+        padding:100px 50px;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(17, 63, 104);
+        color: black;
+        transition: 1s;
+        z-index: 999;
+    }
+
+    header ul li a{
+        color:aliceblue;
+    }
+    .toggle{
+        width: 40px;
+        height: 40px;
+        background: url(hamburger.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 30px;
+        cursor: pointer;
+        z-index: 999;
+    }
+}
+*/
 section{
     padding: 100px;
 }
@@ -18,7 +58,7 @@ header {
     color: white;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 20px 50px 20px 0px;
     z-index: 1000;
     display: flex;
     justify-content: space-around;
@@ -28,9 +68,9 @@ header {
 
 /* to change navbar when scrolling */
 header.sticky{
-    background: white;
+    background: rgb(161, 201, 219);
     color: black;
-    padding: 20px 100px;
+    padding: 20px 50px 20px 0px;
     /*box-shadow: 0 5px 20px cornflowerblue;*/
 }
 
@@ -69,11 +109,18 @@ header.sticky ul li a{
     color: black;
 }
 
+header ul li a:hover{
+    text-decoration: underline;
+    color: black;
+    transition: 0.5s;
+}
+
 /* about me section */
 .heading{
     position: relative;
-    min-height: 100vh;
-    background: url(coding.jpg);
+    min-height: 50vh;
+    /*background: url(coding.jpg);*/
+    background-color: #A0BEE8;
     background-size: cover;
     background-position: right;
     display: flex;
@@ -96,8 +143,9 @@ header.sticky ul li a{
 
 .button{
     position:relative;
-    background-color: aqua;
+    background-color: rgb(161, 201, 219);
     display: inline-block;
+    text-decoration: none;
     color:black;
     margin-top: 20px;
     padding: 10px 30px;
@@ -105,8 +153,9 @@ header.sticky ul li a{
 }
 
 .button:hover{
-    background-color: orange;
-    color:white;
+    background-color: white;
+    color: black;
+    text-decoration: underline;
 }
 
 .about-me-heading{
@@ -229,4 +278,50 @@ img{
     margin-top: 40px;
     text-align: end;
     color: white;
+}
+
+.contact {
+    background-color: burlywood;
+}
+
+.contact-form{
+    min-width: 200px;
+    
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-form form h3,
+.contact-info h3{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-form form input,
+.contact-form form textarea{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    background: antiquewhite;
+    resize: none;
+}
+
+.contact-form form textarea{
+    min-height: 100px;
+}
+
+.contact-form form input::placeholder,
+.contact-form form textarea::placeholder{
+    color:rgb(161, 201, 219);
+}
+
+.contact-form form input[type="submit"]{
+    max-width: 100px;
+    background-color: aquamarine;
+    cursor: pointer;
 }
