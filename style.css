@@ -4,7 +4,7 @@
     font-family:'Courier New', Courier, monospace
     
 }
-
+/* 22:20*/
 /* rgb(161, 201, 219) */
 
 section{
@@ -193,4 +193,40 @@ img{
 .projects .content .project-box{
     width: 500px;
     padding: 10px;
+}
+
+.projects .content .project-box img{
+    max-width: 100%;
+}
+
+/*tetimonial section */
+
+.testimonal{
+    background-color: antiquewhite;
+}
+
+.testimonal .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.testimonal .content .testimonial-box{
+    min-width: 50%;
+    padding: 60px 40px;
+    margin: 20px;
+    background-color: brown;
+
+}
+
+.testimonal .content .testimonial-box p{
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.testimonal .content .testimonial-box h3{
+    margin-top: 40px;
+    text-align: end;
+    color: white;
 }
