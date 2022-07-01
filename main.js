@@ -23,4 +23,4 @@ function typewriter() {
   }
   
   window.addEventListener("load", typewriter);
-  window.removeEventListener("span");
+ 

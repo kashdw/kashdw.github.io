@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -118,7 +120,7 @@ header ul li a:hover{
 /* about me section */
 .heading{
     position: relative;
-    min-height: 50vh;
+    min-height: 40vh;  /* size of section */
     /*background: url(coding.jpg);*/
     background-color: #A0BEE8;
     background-size: cover;
@@ -126,6 +128,8 @@ header ul li a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 147px;
+   /* box-shadow: 0px 10px 13px -7px; */
 }
 
 /* typewriter blinking effect*/
@@ -142,15 +146,16 @@ span{
     }
   }
 
-.heading h2{
-    font-size: 3em;
+.heading h1{
+    font-size: 5em;
     color: white;
     font-weight: bold;
     line-height: 1.5em;
+    text-align: center;
 }
 
 .heading h3{
-    font-size: 1.5em;
+    font-size: 2em;
     color: white;
     font-weight: bold;
 }
@@ -164,6 +169,7 @@ span{
     margin-top: 20px;
     padding: 10px 30px;
     font-size: 20px;
+   
 }
 
 .button:hover{
@@ -187,7 +193,8 @@ span{
 }
 
 .content-item-w50{
-    padding-right: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .content-item-w50 h3{
     font-size: 24px;
@@ -195,17 +202,15 @@ span{
 }
 
 .w50{
-    min-width: 50%;
+    max-width: 50%;
 }
 
-img{
-    max-width: 100;
+.w50 img{
+    width: auto;
+    max-height: 350px;
 
 }
 /* skills section */
-.skills-p{
-    padding-top: 10px;
-}
 
 .skills{
     background: rgb(161, 201, 219);
@@ -215,6 +220,7 @@ img{
 .skills .skills-box{
     display: inline-block;
     padding: 30px;
+    box-shadow: 0px 10px 13px -7px;
 }
 
 .skills .skills-box h2{
@@ -239,9 +245,12 @@ img{
 }
 
 .skills .content .skills-box:hover{
-    background-color: rgb(173, 116, 46);
+    background-color: lavender;
 }
-
+.skills .content .skills-box img{
+    height: 106.250px;
+    width: 106.250px;
+}
 .skills .content .skills-box img:hover{
     filter: invert(1);
 }
