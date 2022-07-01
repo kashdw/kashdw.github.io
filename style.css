@@ -264,87 +264,28 @@ span{
 
 .projects .content .project-box{
     width: 500px;
-    padding: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
 }
 
 .projects .content .project-box img{
     max-width: 100%;
 }
 
-/*tetimonial section */
-
-.testimonal{
-    background-color: antiquewhite;
+.project-text{
+    /* make images so that when they are hovered over, shadow shows that they are clickable and take users to github repo*/
+    padding-top: 10px;
+    text-align: center;
 }
 
-.testimonal .content{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.testimonal .content .testimonial-box{
-    min-width: 50%;
-    padding: 60px 40px;
-    margin: 20px;
-    background-color: brown;
-
-}
-
-.testimonal .content .testimonial-box p{
-    color: white;
-    font-size: 20px;
-    font-style: italic;
-}
-
-.testimonal .content .testimonial-box h3{
-    margin-top: 40px;
-    text-align: end;
-    color: white;
-}
-
+/*contact me section*/
 .contact {
-    background-color: burlywood;
-}
-
-.contact-form{
-    min-width: 200px;
+    background-color: lavender;
     
 }
 
-.contact-form form{
+.contact-container{
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
 
-}
-
-.contact-form form h3,
-.contact-info h3{
-    color: white;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.contact-form form input,
-.contact-form form textarea{
-    margin-bottom: 20px;
-    padding: 15px;
-    font-size: 16px;
-    background: antiquewhite;
-    resize: none;
-}
-
-.contact-form form textarea{
-    min-height: 100px;
-}
-
-.contact-form form input::placeholder,
-.contact-form form textarea::placeholder{
-    color:rgb(161, 201, 219);
-}
-
-.contact-form form input[type="submit"]{
-    max-width: 100px;
-    background-color: aquamarine;
-    cursor: pointer;
 }
