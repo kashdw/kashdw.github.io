@@ -1,4 +1,4 @@
-
+/* hamburger menu/responsive design, more javascript */
 
 *{
     margin: 0px;
@@ -10,9 +10,8 @@
 /* 22:20*/
 /* rgb(161, 201, 219) */
 
-/*
- for responsive design 
-@media(max-width: 1383px){
+
+@media(max-width: 895px){
     header,
     header.sticky{
         padding: 20px 50px;
@@ -48,7 +47,7 @@
         z-index: 999;
     }
 }
-*/
+
 section{
     padding: 100px;
 }
@@ -115,6 +114,7 @@ header ul li a:hover{
     text-decoration: underline;
     color: black;
     transition: 0.5s;
+    transform: translateY(-3px); /* raises icon up when hovered over */
 }
 
 /* about me section */
@@ -160,6 +160,10 @@ span{
     font-weight: bold;
 }
 
+.about-me-heading h2{
+    justify-content: center;
+}
+
 .button{
     position:relative;
     background-color: rgb(161, 201, 219);
@@ -169,13 +173,17 @@ span{
     margin-top: 20px;
     padding: 10px 30px;
     font-size: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
    
 }
 
 .button:hover{
     background-color: white;
+    transition: 0.5s;
     color: black;
     text-decoration: underline;
+    box-shadow: 0px 15px 20px lavender;
+    transform: translateY(-7px);
 }
 
 .about-me-heading{
@@ -288,4 +296,9 @@ span{
     display: flex;
     justify-content: space-evenly;
 
+}
+
+.contact-container .text{
+    display: flex;
+    justify-content: center;
 }
