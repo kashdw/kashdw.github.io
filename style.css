@@ -286,10 +286,21 @@ span{
     max-width: 100%;
 }
 
+.projects .content .project-box img:hover{
+    opacity: 50%;
+}
+
 .project-text{
     /* make images so that when they are hovered over, shadow shows that they are clickable and take users to github repo*/
     padding-top: 10px;
     text-align: center;
+}
+
+.overlay-text{
+    background-color: aqua;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
 }
 
 /*contact me section*/
@@ -308,3 +319,17 @@ span{
     display: flex;
     justify-content: center;
 }
+
+.contact-info-p{
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.contact-info-p a {
+    color: darkblue;
+    text-decoration: none;
+}
+.contact-info-p a:hover{
+    color: white;
+}
+
