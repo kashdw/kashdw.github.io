@@ -317,11 +317,27 @@ span{
     visibility: none;
     opacity: 0;
     transition: 0.3s;
+    margin-top: 0;
+   
 }
 
 .project-box:hover .overlay-text{
     visibility: visible;
     opacity: 1;
+}
+
+.overlay-text .button{
+    position:relative;
+    background-color: black;
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    margin-top: 0px;
+    padding: 10px 30px;
+    font-size: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transform: none;
+    box-shadow: inset;
 }
 
 /*contact me section*/
