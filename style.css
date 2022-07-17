@@ -283,11 +283,18 @@ span{
 }
 
 .projects .content .project-box img{
-    max-width: 100%;
+    width: 500px;
+    height: 335.64px
+}
+
+.project-box{
+    position: relative;
 }
 
 .projects .content .project-box img:hover{
     opacity: 50%;
+    position: relative;
+    
 }
 
 .project-text{
@@ -297,10 +304,24 @@ span{
 }
 
 .overlay-text{
-    background-color: aqua;
-    color: black;
-    font-size: 16px;
-    padding: 16px 32px;
+    box-sizing: border-box;
+    width: 98%;
+    height: 78%;
+    position: absolute;
+    top:0;
+    left:0;
+    text-align: center;
+    padding-top: 30%;
+    background-color: rgb(211,211,211, 0.5);
+    color: white;
+    visibility: none;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.project-box:hover .overlay-text{
+    visibility: visible;
+    opacity: 1;
 }
 
 /*contact me section*/
