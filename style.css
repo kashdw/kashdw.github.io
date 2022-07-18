@@ -114,12 +114,12 @@
     }
 
     .projects .content .project-box{
-        width: 350px;
+        width: 300px;
     }
     
     .projects .content .project-box img{
-        max-width: 350px;
-        max-height: 250px;
+        max-width: 300px;
+        max-height: 200px;
     }
 
     .project-text{
