@@ -8,6 +8,7 @@
     scroll-behavior: smooth;
 }
 
+/*responsive design*/
 @media(max-width: 895px){
     header,
     header.sticky{
@@ -103,21 +104,52 @@
         margin-bottom: 20px;
     }
     
+    .w50 img{
+        max-width: 300px;
+        max-height: 150px;
+    
+    }
 
-    .projects .content{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+    .projects .content .project-box{
+        width: 350px;
     }
     
-    .projects .content .project-box{
-        width: 100%;
-        padding-right: 10px;
-        padding-bottom: 20px;
+    .projects .content .project-box img{
+        max-width: 350px;
+        max-height: 250px;
     }
+
+    .project-text{
+        max-width: 300px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    
+    .project-text h3{
+        font-size: 16px;
+    }
+
+    .overlay-text{
+        box-sizing: border-box;
+        max-width: 350px;
+        max-height: 250px;
+        position: absolute;
+        top:0;
+        left:0;
+        text-align: center;
+        padding-top: 30%;
+        background-color: rgb(211,211,211, 0.5);
+        color: white;
+        visibility: none;
+        opacity: 0;
+        transition: 0.3s;
+        margin-top: 0;
+       
+    }
+    
 }
 section{
-    padding: 100px;
+    padding: 90px;
 }
 /* navbar */
 header {
@@ -137,7 +169,7 @@ header {
 
 /* to change navbar when scrolling */
 header.sticky{
-    background: #7da9e7;
+    background: /*#7da9e7*/ #A0BEE8;
     color: black;
     padding: 20px 50px 20px 0px;
     /*box-shadow: 0 5px 20px cornflowerblue;*/
@@ -190,7 +222,8 @@ header ul li a:hover{
     position: relative;
     min-height: 40vh;  /* size of section */
     /*background: url(coding.jpg);*/
-    background-color: #A0BEE8;
+    background-color: /*#A0BEE8*/black;
+    font: white;
     background-size: cover;
     background-position: right;
     display: flex;
@@ -234,7 +267,7 @@ span{
 
 .button{
     position:relative;
-    background-color: rgb(161, 201, 219);
+    background-color: #A0BEE8;
     display: inline-block;
     text-decoration: none;
     color:black;
@@ -289,16 +322,18 @@ span{
 
 .w50 img{
     width: auto;
-    max-height: 265px;
+    max-height: 255px;
 
 }
 /* skills section */
 
 .skills{
-    background: rgb(161, 201, 219);
-    color: black;
+    background: black;
+    color: white;
 }
-
+.skills-heading{
+    color: white;
+}
 .skills .skills-box{
     display: inline-block;
     padding: 30px;
@@ -307,6 +342,7 @@ span{
 
 .skills .skills-box h2{
     align-content: center;
+    color: black;
 }
 
 .skills .content{
@@ -319,7 +355,7 @@ span{
 .skills .content .skills-box{
     padding: 30px;
     background-color: azure;
-    color: black;
+    color: rgba(0, 0, 0.1);
     max-width: 340px;
     margin: 20px;
     text-align: center;
@@ -410,7 +446,7 @@ span{
 
 /*contact me section*/
 .contact {
-    background-color: #7da9e7;
+    background-color: #A0BEE8;
     
 }
 
