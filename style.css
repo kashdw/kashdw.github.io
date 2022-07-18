@@ -148,6 +148,9 @@
         transition: 0.3s;
         margin-top: 0;
     }
+     .contact-info-p{
+        max-width: 350px;
+    }
 }
 
 section{
