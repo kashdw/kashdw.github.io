@@ -148,8 +148,9 @@
         transition: 0.3s;
         margin-top: 0;
     }
-     .contact-info-p{
+    .contact-info-p{
         max-width: 300px;
+        font-size: 16px;
     }
 }
 
