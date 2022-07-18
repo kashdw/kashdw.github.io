@@ -6,8 +6,9 @@ window.addEventListener('scroll', function(){
 
 function toggleMenu(){
     let menuToggle = document.querySelector('.toggle');
+    let menuMove = document.querySelector('.hamburger-menu');
     menuToggle.classList.toggle('active');
-    
+    menuMove.classList.toggle('active');
 }
 
 /* typewriter effect*/
