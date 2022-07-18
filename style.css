@@ -348,6 +348,9 @@ span{
 .skills-heading{
     color: white;
 }
+.skills-p{
+    color: white;
+}
 .skills .skills-box{
     display: inline-block;
     padding: 30px;
