@@ -76,11 +76,46 @@
     }
 
     .heading{
-        
+        padding: 150px 50px 100px;
+    }
+
+    .name-with-effect{
+        font-size: 38px; 
     }
     
-}
+    .heading .h3{
+        font-size: 30px;
+    }
 
+    .button{
+        margin-top: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .content{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .w50{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+
+    .projects .content{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .projects .content .project-box{
+        width: 100%;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+}
 section{
     padding: 100px;
 }
