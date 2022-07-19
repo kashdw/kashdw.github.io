@@ -9,13 +9,12 @@
 /*responsive design*/
 @media(max-width: 895px){
     body {
-        overflow-x: hidden !important;
+        overflow-x: hidden;
     }
     .container {
         max-width: 100% !important;
         overflow-x: hidden !important;
     }
-    
     header,
     header.sticky{
         padding: 20px 50px;
@@ -82,7 +81,8 @@
     }
 
     section {
-        padding: 100px 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .heading{
@@ -139,7 +139,7 @@
     .project-text h3{
         font-size: 16px;
     }
-/*TODO: fix view project button alignment*/
+
     .overlay-text{
         box-sizing: border-box;
         max-width: 300px;
@@ -158,7 +158,10 @@
     }
     .contact .skills-p{
         color:black;
-        flex-wrap: wrap;
+    }
+    .contact-info-p p{
+       font-size: 12px;
+       max-width: 275px;
     }
 }
 
@@ -404,7 +407,9 @@ span{
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
+.projects-p{
+    color: black;
+}
 .projects .content .project-box{
     width: 500px;
     padding-right: 10px;
@@ -486,6 +491,9 @@ span{
     display: flex;
     justify-content: center;
 }
+.contact .skills-p{
+    color:black;
+}
 
 .contact-info-p{
     padding-top: 20px;
@@ -499,9 +507,3 @@ span{
 .contact-info-p a:hover{
     color: white;
 }
-
-.contact .skills-p{
-    color:black;
-}
-
-
