@@ -91,7 +91,7 @@
 
     .name-with-effect{
         font-size: 38px; 
-        overflow: hidden;
+        overflow-x: hidden;
     }
     
     .heading .h3{
