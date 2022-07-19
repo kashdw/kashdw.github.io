@@ -8,6 +8,14 @@
 
 /*responsive design*/
 @media(max-width: 895px){
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+    
     header,
     header.sticky{
         padding: 20px 50px;
