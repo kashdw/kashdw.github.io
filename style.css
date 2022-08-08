@@ -509,3 +509,7 @@ span{
 .contact-info-p a:hover{
     color: white;
 }
+
+i{
+    font-size: 12px;
+}
