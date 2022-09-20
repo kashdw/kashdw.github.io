@@ -412,6 +412,9 @@ span{
 .projects-p{
     color: black;
 }
+.new-projects-p{
+    font-size: 14px;  
+}
 .projects .content .project-box{
     width: 500px;
     padding-right: 10px;
